@@ -23,7 +23,7 @@ services:
 
   # Nodes
   node:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node
     restart: unless-stopped
     user: "$UID:$GID"
@@ -47,14 +47,9 @@ services:
         "/ip4/0.0.0.0",
         "--telemetry-url",
         "wss://telemetry.polkadot.io/submit/ 5",
-        "--bootnodes",
-        "/dns/alphaville-0.zero.io/tcp/30333/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-0.zero.io/tcp/9944/ws/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-1.zero.io/tcp/30333/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
-        "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
   node2:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node2
     restart: unless-stopped
     user: "$UID:$GID"
@@ -78,14 +73,9 @@ services:
         "/ip4/0.0.0.0",
         "--telemetry-url",
         "wss://telemetry.polkadot.io/submit/ 5",
-        "--bootnodes",
-        "/dns/alphaville-0.zero.io/tcp/30333/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-0.zero.io/tcp/9944/ws/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-1.zero.io/tcp/30333/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
-        "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
   node3:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node3
     restart: unless-stopped
     user: "$UID:$GID"
@@ -109,14 +99,9 @@ services:
         "/ip4/0.0.0.0",
         "--telemetry-url",
         "wss://telemetry.polkadot.io/submit/ 5",
-        "--bootnodes",
-        "/dns/alphaville-0.zero.io/tcp/30333/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-0.zero.io/tcp/9944/ws/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-1.zero.io/tcp/30333/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
-        "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
   node4:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node4
     restart: unless-stopped
     user: "$UID:$GID"
@@ -140,40 +125,30 @@ services:
         "/ip4/0.0.0.0",
         "--telemetry-url",
         "wss://telemetry.polkadot.io/submit/ 5",
-        "--bootnodes",
-        "/dns/alphaville-0.zero.io/tcp/30333/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-0.zero.io/tcp/9944/ws/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-        "/dns/alphaville-1.zero.io/tcp/30333/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
-        "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
-      node5:
-        image: playzero/subzero
-        container_name: node5
-        restart: unless-stopped
-        user: "$UID:$GID"
-        volumes:
-          - $PWD/date-node5:/data
-        depends_on:
-          - proxy
-        command: [
-            "/usr/local/bin/subzero",
-            # TODO: Add name
-            "--name",
-            "ZERO-AYANAMI-v",
-            "--validator",
-            "--ws-external",
-            "--rpc-external",
-            "--rpc-cors",
-            "all",
-            "--rpc-methods",
-            "unsafe",
-            "--public-addr",
-            "/ip4/0.0.0.0",
-            "--telemetry-url",
-            "wss://telemetry.polkadot.io/submit/ 5",
-            "--bootnodes",
-            "/dns/alphaville-0.zero.io/tcp/30333/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-            "/dns/alphaville-0.zero.io/tcp/9944/ws/p2p/12D3KooWPPkXsaSBtGyuYLcQthJkN7DRAmaNkN38FTZeoMX2kLgh",
-            "/dns/alphaville-1.zero.io/tcp/30333/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
-            "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
-          ]
+  node5:
+    image: playzero/subzero:latest
+    container_name: node5
+    restart: unless-stopped
+    user: "$UID:$GID"
+    volumes:
+      - $PWD/date-node5:/data
+    depends_on:
+      - proxy
+    command: [
+        "/usr/local/bin/subzero",
+        # TODO: Add name
+        "--name",
+        "ZERO-AYANAMI-v",
+        "--validator",
+        "--ws-external",
+        "--rpc-external",
+        "--rpc-cors",
+        "all",
+        "--rpc-methods",
+        "unsafe",
+        "--public-addr",
+        "/ip4/0.0.0.0",
+        "--telemetry-url",
+        "wss://telemetry.polkadot.io/submit/ 5",
+      ]
