@@ -23,7 +23,7 @@ services:
 
   # Nodes
   node:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node
     restart: unless-stopped
     user: "$UID:$GID"
@@ -54,7 +54,7 @@ services:
         "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
   node2:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node2
     restart: unless-stopped
     user: "$UID:$GID"
@@ -85,7 +85,7 @@ services:
         "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
   node3:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node3
     restart: unless-stopped
     user: "$UID:$GID"
@@ -116,7 +116,7 @@ services:
         "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
   node4:
-    image: playzero/subzero
+    image: playzero/subzero:latest
     container_name: node4
     restart: unless-stopped
     user: "$UID:$GID"
@@ -147,7 +147,7 @@ services:
         "/dns/alphaville-1.zero.io/tcp/9944/ws/p2p/12D3KooWSJb1iJ5rJdgNzVBasxLhC27BX9fNkNith55ivuqUojNf",
       ]
       node5:
-        image: playzero/subzero
+        image: playzero/subzero:latest
         container_name: node5
         restart: unless-stopped
         user: "$UID:$GID"
