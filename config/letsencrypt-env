@@ -1,0 +1,7 @@
+PUID=1000
+PGID=1000
+TZ=Europe/London
+URL=example.com
+SUBDOMAINS=node
+VALIDATION=http
+ONLY_SUBDOMAINS=true

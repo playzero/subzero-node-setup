@@ -3,39 +3,34 @@ services:
   proxy:
     image: linuxserver/swag
     container_name: zero-proxy
+    env_file:
+      - $PWD/config/letsencrypt-env
     cap_add:
       - NET_ADMIN
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/London
-      # TODO: Edit
-      - URL=ayanami.dev
-      - SUBDOMAINS=i
-      - VALIDATION=http
-      - ONLY_SUBDOMAINS=true
     volumes:
-      - $PWD/config:/config
+      - $PWD/config/node.subdomain.conf:/config/nginx/proxy-confs/node.subdomain.conf
+      - proxyVolume:/config
     ports:
       - 443:443
       - 80:80
     restart: unless-stopped
 
-  # Nodes
   node:
-    image: playzero/subzero:latest
-    container_name: node
+    image: playzero/subzero
+    container_name: zero-node
     restart: unless-stopped
     user: "$UID:$GID"
     volumes:
-      - $PWD/date-node:/data
+      - $PWD/keys/:/data/chains/zero-alphaville/keystore/
     depends_on:
       - proxy
-    command: [
+    command:
+      [
         "/usr/local/bin/subzero",
-        # TODO: Add name
+        "--base-path",
+        "/data",
         "--name",
-        "ZERO-AYANAMI-i",
+        "${NAME}",
         "--validator",
         "--ws-external",
         "--rpc-external",
@@ -48,3 +43,6 @@ services:
         "--telemetry-url",
         "wss://telemetry.polkadot.io/submit/ 5",
       ]
+
+volumes:
+  proxyVolume:
