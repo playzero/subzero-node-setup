@@ -201,3 +201,5 @@ We can now easily start the node with `docker-compose up`.
 > With `docker-compose up -d` the process runs in the background.
 >
 > We can always open the logs with `docker-compose logs -f`
+>
+> `docker-compose down` to stop the container
