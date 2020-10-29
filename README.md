@@ -68,7 +68,14 @@ Preparation:
 
 > As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
 
-We can get more detailed information about our suri with the <a href="https://substrate.dev/docs/en/knowledgebase/integrate/subkey">subkey tool</a>
+We can get more detailed information about our suri with the <a href="https://substrate.dev/docs/en/knowledgebase/integrate/subkey">subkey tool:</a>
+
+```
+curl https://getsubstrate.io -sSf | bash -s -- --fast
+cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.0
+```
+
+### Keys
 
 SR25519(babe):
 
@@ -104,9 +111,9 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
 
 <br/>
 
-Create a file containing the name 62616265 and our public key in sr25519 format
+Create a file with the name `62616265` and our public key in sr25519 format
 
-> My file is named `62616265`3ee10e31a28caefe0fb45c33aa5f79d83758a2006abcd6bf387b21025f7ad720
+> My file is named `626162653ee10e31a28caefe0fb45c33aa5f79d83758a2006abcd6bf387b21025f7ad720`
 
 Now all that remains is to write our suri in the file.
 
@@ -118,9 +125,9 @@ Now all that remains is to write our suri in the file.
 
 <br/>
 
-Create a file containing the name 6772616e and our public key in ed25519 format
+Create a file with the name `6772616e` and our public key in ed25519 format
 
-> My file is named `6772616e`216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228
+> My file is named `6772616e216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228`
 
 Now all that remains is to write our suri in the file.
 
@@ -141,9 +148,10 @@ The folder `./keys` should now contain 2 files
 ## Ok, first we do the simplest config. The node needs a name
 
 There is a file named `.env` in the repository the content is quite manageable
+This is the name that will show up in the telemetry
 
 ```
-NAME=Example Node
+NAME=you.madd.games
 ```
 
 ## Next is the configuration of our subdomain:
