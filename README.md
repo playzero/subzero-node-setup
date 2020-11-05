@@ -151,7 +151,7 @@ There is a file named `.env` in the repository the content is quite manageable
 This is the name that will show up in the telemetry
 
 ```
-NAME=you.madd.games
+NAME=ExampleNode
 ```
 
 ## Next is the configuration of our subdomain:
