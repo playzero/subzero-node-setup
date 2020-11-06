@@ -55,7 +55,7 @@ There are several ways to get a subdomain. I will show you 2 ways
 ## Create the keys Babe and Gran for the node
 
 Preparation:
-
+- (generate an address and save the seed phrase for example with: https://polkadot.js.org/extension/)
 - For the key type babe we use the public key in SR25519 format.
 - For the key type gran we use the public key in ED25519 format.
 - Suri | Most people probably know it as mnemonic (Mostly a set of 12 words)
