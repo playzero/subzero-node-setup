@@ -1,4 +1,4 @@
-# Subzero Validator
+# Subzero-Alphaville Testnet Node
 #### 6 Steps ~ 30 Minutes.
 
 <br/>
