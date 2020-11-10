@@ -125,6 +125,14 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
 
 ## Ok now that we have our public keys we need to create 2 files in the folder ./keys
 
+> As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
+
+The end result will look like this but with YOUR key information
+
+├── 626162653ee10e31a28caefe0fb45c33aa5f79d83758a2006abcd6bf387b21025f7ad720<br/>
+└── 6772616e216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228
+<br/>
+
 ---
 
 #### The first file is for babe:
