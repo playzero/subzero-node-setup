@@ -59,7 +59,7 @@ Preparation:
 - (generate an address and save the seed phrase for example with: https://polkadot.js.org/extension/)
 - For the key type babe we use the public key in SR25519 format.
 - For the key type gran we use the public key in ED25519 format.
-- Suri | Most people probably know it as mnemonic (Mostly a set of 12 words)
+- Suri | Wallet Seed Phrase | Mnemonic (Mostly a set of 12 words)
 
 ⚠️ If you haven't noticed, the format is different for gran and babe (SR, ED) ⚠️
 
