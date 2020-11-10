@@ -24,6 +24,7 @@ Tools: 🛠️
 <a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows"> 
 Docker Desktop for Windows</a>
 </details>
+
 <br/>
 
 Other: ⚗️
@@ -64,6 +65,25 @@ Preparation:
 
 <br/>
 
+## The Short Way - use Our Discord Faucet Chan (and get some PLAY tokens while your at it)
+
+ZERO-FAUCET
+https://discord.gg/d94Hrz4udy
+
+```!fc subkey 5EqpkWdfJkRW1qc8P3D8wTiE2nLPZNgGQcw6C6DEUtqXn62g```
+
+to get the SR25519 and ED25519:
+
+Get subkey infromation for Address
+!fc subkey <Address>
+
+Example
+!fc subkey 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+
+Get tokens to play and test
+!fc get <Address>
+
+<details><summary>The Long Way - Compile Subkey</summary>
 ## How do we get the SR25519 and ED25519 public key from our suri:
 
 > As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
@@ -101,6 +121,7 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
   Account ID:       0x216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228
   SS58 Address:     5CpXam2wJnDQPeatRAFBr3Q45EzRJgamHVxSWguBsnfswvTG
 ```
+</details>
 
 ---
 
