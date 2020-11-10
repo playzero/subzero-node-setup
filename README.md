@@ -65,24 +65,25 @@ Preparation:
 
 <br/>
 
-## The Short Way - use Our Discord Faucet Chan (and get some PLAY tokens while your at it)
+## The Short Way
+#### use our discord bot faucet-chan (and get some PLAY tokens while your at it)
 
-ZERO-FAUCET
+### ZERO-FAUCET Discord:
 https://discord.gg/d94Hrz4udy
 
-To get the SR25519 and ED25519:
-
-Get subkey infromation for Address
-!fc subkey <Address>
+To get the SR25519 and ED25519 infromation for Address
+```!fc subkey <Address>```
 
 Example
 ```!fc subkey 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY```
 
 Also, be sure to Get tokens to play and test
-!fc get <Address>
+```!fc get <Address>```
 
-<details><summary>The Long Way - Compile Subkey</summary>
-## How do we get the SR25519 and ED25519 public key from our suri:
+<br/>
+## The Long Way
+<details><summary>Compile Subkey Yourself</summary>
+How do we get the SR25519 and ED25519 public key from our suri:
 
 > As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
 
