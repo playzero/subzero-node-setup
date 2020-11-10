@@ -70,17 +70,15 @@ Preparation:
 ZERO-FAUCET
 https://discord.gg/d94Hrz4udy
 
-```!fc subkey 5EqpkWdfJkRW1qc8P3D8wTiE2nLPZNgGQcw6C6DEUtqXn62g```
-
-to get the SR25519 and ED25519:
+To get the SR25519 and ED25519:
 
 Get subkey infromation for Address
 !fc subkey <Address>
 
 Example
-!fc subkey 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY
+```!fc subkey 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY```
 
-Get tokens to play and test
+Also, be sure to Get tokens to play and test
 !fc get <Address>
 
 <details><summary>The Long Way - Compile Subkey</summary>
