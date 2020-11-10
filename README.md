@@ -1,11 +1,7 @@
 # Subzero Validator
-
-#### Should take around 15 Minutes. 😁
-
+#### 6 Steps ~ 30 Minutes.
 <br/>
-
 ---
-
 ## 0 - What is needed to create a node with this repository:
 
 <br/>
