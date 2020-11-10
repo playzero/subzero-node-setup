@@ -1,12 +1,15 @@
 # Subzero Validator
 #### 6 Steps ~ 30 Minutes.
+
 <br/>
+
 ---
+
 ## 0 - What is needed to create a node with this repository:
 
 <br/>
 
-Tools: 🛠️
+🛠️Tools: 
 
 <details><summary>docker and docker-compose | Docker is so to say our runtime in which the node and the webserver are executed.</summary>
 <h3>Linux</h3>
@@ -23,7 +26,7 @@ Docker Desktop for Windows</a>
 
 <br/>
 
-Other: ⚗️
+⚗️Other: 
 
 <details><summary>Subdomain | In short a reference from a dns to our server(ip)</summary>
 <br/>
