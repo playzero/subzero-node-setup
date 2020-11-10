@@ -81,7 +81,9 @@ Also, be sure to Get tokens to play and test
 ```!fc get <Address>```
 
 <br/>
+
 ## The Long Way
+
 <details><summary>Compile Subkey Yourself</summary>
 How do we get the SR25519 and ED25519 public key from our suri:
 
