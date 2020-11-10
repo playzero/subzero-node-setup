@@ -132,7 +132,7 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
 
 The end result will look like this but with YOUR key information
 
-|/keys
+├ keys
 ├── 626162653ee10e31a28caefe0fb45c33aa5f79d83758a2006abcd6bf387b21025f7ad720<br/>
 └── 6772616e216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228
 <br/>
@@ -169,7 +169,7 @@ Now all that remains is to write our suri in the file.
 
 The folder `./keys` should now contain 2 files
 
-|/keys
+├ keys
 ├── 626162653ee10e31a28caefe0fb45c33aa5f79d83758a2006abcd6bf387b21025f7ad720<br/>
 └── 6772616e216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228
 <br/>
