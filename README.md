@@ -6,7 +6,7 @@
 
 ---
 
-## What is needed to create a node with this repository:
+## 0 - What is needed to create a node with this repository:
 
 <br/>
 
@@ -53,7 +53,7 @@ There are several ways to get a subdomain. I will show you 2 ways
 
 ---
 
-## Create the keys Babe and Gran for the node
+## 1 - Create the keys Babe and Gran for the node
 
 Preparation:
 - (generate an address and save the seed phrase for example with: https://polkadot.js.org/extension/)
@@ -126,7 +126,7 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
 
 ---
 
-## Ok now that we have our public keys we need to create 2 files in the folder ./keys
+## 2 - Now that we have our public keys we need to create 2 files in the folder ./keys
 
 > As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
 
@@ -182,7 +182,7 @@ The folder `./keys` should now contain 2 files
 
 <br/>
 
-## Ok, first we do the simplest config. The node needs a name
+## 3 - The node needs a name:
 
 There is a file named `.env` in the repository the content is quite manageable
 This is the name that will show up in the telemetry
@@ -191,7 +191,7 @@ This is the name that will show up in the telemetry
 NAME=ExampleNode
 ```
 
-## Next is the configuration of our subdomain:
+## 4 - Configuration of our subdomain:
 
 The file location is `.\config\node.subdomain.conf`.
 
@@ -210,7 +210,7 @@ Example:
 >
 > So we change `node.*` to `magic-node.*` actually quite simple.
 
-## Last but not least. The letsencrypt configs
+## 5 - Letsencrypt configs
 
 The file location is `.\config\letsencrypt-env`.
 
@@ -229,7 +229,7 @@ SUBDOMAINS=myNode
 
 -> Who wants to read more about the settings can click <a href="https://github.com/linuxserver/docker-letsencrypt#parameters">here</a>
 
-## How to start the node now:
+## 6 - Start the Node:
 
 We can now easily start the node with `docker-compose up`.
 
