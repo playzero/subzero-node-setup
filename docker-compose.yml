@@ -44,5 +44,13 @@ services:
         "wss://telemetry.polkadot.io/submit/ 5",
       ]
 
+  ipfs-node:
+    image: lactore/zero-ipfs-node
+    container_name: zero-ipfs
+    restart: unless-stopped
+    volumes:
+      - ipfsData:/data/ipfs
+
 volumes:
   proxyVolume:
+  ipfsData:
