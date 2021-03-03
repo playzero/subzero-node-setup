@@ -11,19 +11,23 @@
 ---
 
 ## 🛠️ 1 - Setup
-### Azure One-Click Setup
+### Azure One-Click Setup:
+[Azure-One-Click](https://azure.com)
+
 **continue at step 2**
 
 ---
 
-### DigitalOcean
-DigitalOcean has droplets that come included with `docker-compose`
-- [docker droplet](https://marketplace.digitalocean.com/apps/docker)
-**continue at step 3**
+### DigitalOcean:
+[Docker-Droplet](https://marketplace.digitalocean.com/apps/docker)
+
+**continue at step 2**
 
 ---
 
 ### Other:
+##### First we need to install the tools needed:
+
 **docker & docker-compose**
 
 Linux
@@ -34,6 +38,9 @@ Windows
 
 **git**
 - [Linux](https://git-scm.com/download/linux) [Mac](https://git-scm.com/download/mac) [Windows](https://git-scm.com/download/win)
+
+##### Now we clone the repository:
+```git clone https://gitlab.com/zero.io/subzero_alphaville```
 
 ---
 
