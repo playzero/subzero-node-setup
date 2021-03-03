@@ -12,7 +12,7 @@ At the end of this tutorial you will have a node online and synced to the networ
 here will be snapshots taken regularly to calculate rewards
 
 
-## Setup:
+## 🛠️ Setup:
 you will need one of the following:
 
 ### azure
@@ -27,13 +27,34 @@ continue at step 1
 all you need is 
 
 - *docker-compose*
+<details><summary>docker and docker-compose | Docker is so to say our runtime in which the node and the webserver are executed.</summary>
+<h3>Linux</h3>
+<a href="https://docs.docker.com/engine/install/ubuntu/">Install Docker Engine</a>
+<br/>
+<a href ="https://docs.docker.com/compose/install/">Install Docker Compose</a>
+<br/>
+<a href="https://docs.docker.com/engine/install/linux-postinstall/">Post-installation steps for Linux</a>
+<hr>
+<h3>Windows:</h3>
+<a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows"> 
+Docker Desktop for Windows</a>
+</details>
+
 - *git*
+<details><summary>docker and docker-compose | Docker is so to say our runtime in which the node and the webserver are executed.</summary>
+<h3>Linux&OSX</h3>
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"></a>
+<hr>
+<h3>Windows:</h3>
+<a href="https://git-scm.com/"> 
+Git SCM for Windows</a>
+</details>
 
 continue at step 1
 
 <br/>
 
-## 1: Naming your node:
+## 2: Naming your node:
 
 There is a file named `.env` in the repository the content is quite manageable
 This is the name that will show up in the telemetry
