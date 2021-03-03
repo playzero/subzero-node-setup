@@ -1,4 +1,4 @@
-![logo zero.io](images/zerologo.png)
+![logo zero.io](images/zero.jpg)
 # Subzero-Alphaville Node Tutorial
 <hr>
 #### 5 minutes.
