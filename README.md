@@ -1,15 +1,18 @@
 # Subzero-Alphaville Testnet Node
-
 #### 5 minutes.
-
-## This will show you how to run a node and get rewards.
-## If you are serious / want to become an advanced user you can follow the VALIDATOR tutorial insteas [](url)
+This will show you how to run a simple node and get rewards for helong the network.
+Advanced users you can follow the _VALIDATOR_ setup tutorial: [Validator Turorial](README_VALIDATOR.md)
 
 <br/>
 
 ---
 
-## 0 Setup:
+## Goal:
+At the end of this tutorial you will have a node online and synced to the network.
+here will be snapshots taken regularly to calculate rewards
+
+
+## Setup:
 you will need one of the following:
 
 ### azure
