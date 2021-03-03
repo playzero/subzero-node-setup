@@ -24,8 +24,12 @@ continue at step 1
 continue at step 1
 
 ### laptop/other vm
-all you need is docker-comnpose and git
-continrue at step 1
+all you need is 
+
+- *docker-compose*
+- *git*
+
+continue at step 1
 
 <br/>
 
