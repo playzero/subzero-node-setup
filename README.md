@@ -30,12 +30,12 @@ https://marketplace.digitalocean.com/apps/docker
 
 ##### docker & docker-compose
 
-    Linux
+Linux
 
-dfsdf
-[Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
-[Install Docker Compose](https://docs.docker.com/compose/install/)
-[Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
+- [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
+- [Install Docker Compose](https://docs.docker.com/compose/install/)
+- [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
+
 
 
 Windows
