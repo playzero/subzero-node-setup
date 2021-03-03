@@ -31,17 +31,19 @@ This is the name that will show up in the telemetry
 NAME=ExampleNode
 ```
 
-## Start the Node:
+## Testing the Node:
 
 We can now easily start the node with `docker-compose up`.
+Once we verified this works we can actually start the node for long term production:
 
-> Tip:
->
-> With `docker-compose up -d` the process runs in the background.
->
-> We can always open the logs with `docker-compose logs -f`
->
-> `docker-compose down` to stop the container
+## Starting the Node öong-ter,:
+
+With `docker-compose up -d` the process runs in the background.
+ 
+We can always open the logs with `docker-compose logs -f`
+
+`docker-compose down` to stop the container
 
 ## Updating the Node:
-
+`docker-compose down`
+`docker-comnpose up -d`
