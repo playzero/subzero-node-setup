@@ -40,11 +40,14 @@ Docker Desktop for Windows</a>
 </details>
 
 <details><summary>GIT - to clone repositories</summary>
-<h3>Linux&OSX</h3>
-<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"></a>
+<h3>Linux</h3>
+<a href="https://git-scm.com/download/linux"></a>
+<hr>
+<h3>OSX</h3>
+<a href="https://git-scm.com/download/mac"></a>
 <hr>
 <h3>Windows:</h3>
-<a href="https://git-scm.com/"> 
+<a href="https://git-scm.com/download/win"> 
 Git SCM for Windows</a>
 </details>
 
