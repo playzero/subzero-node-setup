@@ -11,8 +11,8 @@
 ---
 
 ## 🛠️ 1 - Setup
-### Azure One-Click Setup:
-[Azure-One-Click](https://azure.com)
+### Heroku One-Click Setup:
+[heroku-One-Click](https://herkou.com)
 
 **continue at step 2**
 
