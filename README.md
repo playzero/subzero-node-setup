@@ -45,5 +45,8 @@ We can always open the logs with `docker-compose logs -f`
 `docker-compose down` to stop the container
 
 ## Updating the Node:
-`docker-compose down`
-`docker-comnpose up -d`
+```
+docker-compose down
+docker-compose pull
+docker-comnpose up -d
+```
