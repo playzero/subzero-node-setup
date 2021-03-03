@@ -1,59 +1,43 @@
 ![logo zero.io](images/zero.jpg)
 # zero.io
 
-    Goal: A Running&Syncing alphaville testnet-node
-    Time: 5 minutes
-    Difficulty: Easy
-    Required: Terminal, Git, (Cloud VMs)
+    Time: 5 min
+    Difficulty: Moderately Easy
+    Required: light terminal skills
+    Goal: A Syncing Alphaville testnet-node
 
-Advanced Validator Turorial: [Validator Turorial](README_VALIDATOR.md)
+*Advanced Validator Turorial:* [Validator Turorial](README_VALIDATOR.md)
 
 ---
 
-## 1 - Setup
-
-### ⚡ Azure One-Click Setup
+## 🛠️ 1 - Setup
+### Azure One-Click Setup
 **continue at step 2**
 
 ---
 
-### 🛠️ Cloud Vm/Personal Setup:
-
-#### DigitalOcean
-DigitalOcean has droplets that come included with docker-compose
-https://marketplace.digitalocean.com/apps/docker
-*continue at step 3*
+### DigitalOcean
+DigitalOcean has droplets that come included with `docker-compose`
+- [docker droplet](https://marketplace.digitalocean.com/apps/docker)
+**continue at step 3**
 
 ---
 
-#### other/custom:
-
-##### docker & docker-compose
+### Other:
+**docker & docker-compose**
 
 Linux
-
-- [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
-- [Install Docker Compose](https://docs.docker.com/compose/install/)
-- [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
-
-
+- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) [docker-compose](https://docs.docker.com/compose/install/) [postinstall](https://docs.docker.com/engine/install/linux-postinstall/)
 
 Windows
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
-[Docker Desktop for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-
-
-git
-
-[Linux](https://git-scm.com/download/linux)
----
-[Mac](https://git-scm.com/download/mac)
----
-[Windows](https://git-scm.com/download/win)
+**git**
+- [Linux](https://git-scm.com/download/linux) [Mac](https://git-scm.com/download/mac) [Windows](https://git-scm.com/download/win)
 
 ---
 
-## 2: Naming your node:
+## 2 - Naming your node:
 
 There is a file named `.env` in the repository the content is quite manageable
 This is the name that will show up in the telemetry
