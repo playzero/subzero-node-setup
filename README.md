@@ -26,20 +26,21 @@ continue at step 1
 ### laptop/other vm
 all you need is 
 
-<details><summary>docker and docker-compose | easy orchestraton of linux containers</summary>
-<h3>Linux</h3>
+docker and docker-compose
+easy orchestraton of linux containers
+Linux
 <a href="https://docs.docker.com/engine/install/ubuntu/">Install Docker Engine</a>
 <br/>
 <a href ="https://docs.docker.com/compose/install/">Install Docker Compose</a>
 <br/>
 <a href="https://docs.docker.com/engine/install/linux-postinstall/">Post-installation steps for Linux</a>
 <hr>
-<h3>Windows:</h3>
+Windows:
 <a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows"> 
 Docker Desktop for Windows</a>
-</details>
 
-<details><summary>GIT - to clone repositories</summary>
+
+GIT
 <h3>Linux</h3>
 <a href="https://git-scm.com/download/linux"></a>
 <hr>
@@ -49,7 +50,7 @@ Docker Desktop for Windows</a>
 <h3>Windows:</h3>
 <a href="https://git-scm.com/download/win"> 
 Git SCM for Windows</a>
-</details>
+
 
 continue at step 1
 
