@@ -26,8 +26,7 @@ continue at step 1
 ### laptop/other vm
 all you need is 
 
-- *docker-compose*
-<details><summary>docker and docker-compose | Docker is so to say our runtime in which the node and the webserver are executed.</summary>
+<details><summary>docker and docker-compose | easy orchestraton of linux containers</summary>
 <h3>Linux</h3>
 <a href="https://docs.docker.com/engine/install/ubuntu/">Install Docker Engine</a>
 <br/>
@@ -40,8 +39,7 @@ all you need is
 Docker Desktop for Windows</a>
 </details>
 
-- *git*
-<details><summary>docker and docker-compose | Docker is so to say our runtime in which the node and the webserver are executed.</summary>
+<details><summary>GIT - to clone repositories</summary>
 <h3>Linux&OSX</h3>
 <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"></a>
 <hr>
