@@ -3,7 +3,7 @@
 #### 5 minutes.
 
 ## This will show you how to run a node and get rewards.
-## If you are serious / want to become an advanced user you can follow the VALIDATOR tutorial instead
+## If you are serious / want to become an advanced user you can follow the VALIDATOR tutorial insteas [](url)
 
 <br/>
 
@@ -34,6 +34,8 @@ This is the name that will show up in the telemetry
 ```
 NAME=ExampleNode
 ```
+
+![naming the node](images/image.png)
 
 ## 2: Testing the Node:
 
