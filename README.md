@@ -35,18 +35,22 @@ This is the name that will show up in the telemetry
 NAME=ExampleNode
 ```
 
-![naming the node](images/image.png)
+![naming the node](images/naming.png)
 
 ## 2: Testing the Node:
 
 We can now easily start the node with `docker-compose up`.
 Once we verified this works we can actually start the node for long term production:
 
-## 3: Starting the Node:
+![testing the node](images/testing.png)
+
+## 3: Running the Node in production:
 
 With `docker-compose up -d` the process runs in the background.
 We can always open the logs with `docker-compose logs -f`
 `docker-compose down` to stop the container
+
+![running the node](images/running.png)
 
 ## Updating the Node:
 ```
@@ -54,3 +58,5 @@ docker-compose down
 docker-compose pull
 docker-comnpose up -d
 ```
+
+![naming the node](images/updating.png)
