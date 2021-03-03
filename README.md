@@ -1,4 +1,5 @@
-# Subzero-Alphaville Testnet Node
+![logo zero.io](images/zerologo.svg)
+# Subzero-Alphaville Node Tutorial
 <hr>
 #### 5 minutes.
 This will show you how to run a simple node and get rewards for helong the network.
