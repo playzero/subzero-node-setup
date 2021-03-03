@@ -31,13 +31,15 @@
 **docker & docker-compose**
 
 Linux
-- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) [docker-compose](https://docs.docker.com/compose/install/) [postinstall](https://docs.docker.com/engine/install/linux-postinstall/)
+- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) & [docker-compose](https://docs.docker.com/compose/install/) & [postinstall](https://docs.docker.com/engine/install/linux-postinstall/)
 
 Windows
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
+---
+
 **git**
-- [Linux](https://git-scm.com/download/linux) [Mac](https://git-scm.com/download/mac) [Windows](https://git-scm.com/download/win)
+- [Linux](https://git-scm.com/download/linux) || [Mac](https://git-scm.com/download/mac) || [Windows](https://git-scm.com/download/win)
 
 ##### Now we clone the repository:
 ```git clone https://gitlab.com/zero.io/subzero_alphaville```
