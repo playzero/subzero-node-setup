@@ -12,11 +12,6 @@
 ---
 
 ## 1 - Setup 
-### Heroku One-Click Setup:
-[![Deploy Alphaville on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://gitlab.com/zero.io/subzero_alphaville)
-**continue at step 2**
-
----
 
 ### DigitalOcean:
 [Docker-Droplet](https://marketplace.digitalocean.com/apps/docker)
