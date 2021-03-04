@@ -7,7 +7,7 @@
     Required: light terminal experience
     Goal: A Syncing Alphaville testnet-node!
 
-*Advanced Validator Tutorial:* [Validator Turorial](README_VALIDATOR.md)
+*Advanced Validator Tutorial:* [Validator Tutorial](README_VALIDATOR.md)
 
 ---
 
