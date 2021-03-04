@@ -1,0 +1,8 @@
+
+{
+  "name": "zero.io alphaville testnet node",
+  "description": "A tutorial for running a zero.io network node",
+  "repository": "https://gitlab.com/zero.io/subzero_alphaville",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["polkadot", "kusama", "substrate", "blockchain", "crypto"]
+}

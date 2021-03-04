@@ -1,19 +1,19 @@
 ![logo zero.io](images/zero.jpg)
 # zero.io
+<p> 🛠️ alphaville testnet-node setup tutorial </p>
 
     Time: 5 min
-    Difficulty: Moderately Easy
-    Required: light terminal skills
-    Goal: A Syncing Alphaville testnet-node
+    Difficulty: medium
+    Required: light terminal experience
+    Goal: A Syncing Alphaville testnet-node!
 
-*Advanced Validator Turorial:* [Validator Turorial](README_VALIDATOR.md)
+*Advanced Validator Tutorial:* [Validator Turorial](README_VALIDATOR.md)
 
 ---
 
-## 🛠️ 1 - Setup
+## 1 - Setup 
 ### Heroku One-Click Setup:
-[heroku-One-Click](https://herkou.com)
-
+[![Deploy Alphaville on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://gitlab.com/zero.io/subzero_alphaville)
 **continue at step 2**
 
 ---
@@ -59,7 +59,7 @@ NAME=ExampleNode
 
 ---
 
-## 2 - Testing the Node:
+## 3 - Testing the Node:
 
 We can now easily start the node with `docker-compose up`.
 Once we verified this works we can actually start the node for long term production:
@@ -68,7 +68,7 @@ Once we verified this works we can actually start the node for long term product
 
 ---
 
-## 3 - Running the Node in production:
+## 4 - Running the Node in production:
 
 With `docker-compose up -d` the process runs in the background.
 We can always open the logs with `docker-compose logs -f`
@@ -78,7 +78,7 @@ We can always open the logs with `docker-compose logs -f`
 
 ---
 
-## 4 - Updating the Node:
+## 5 - Updating the Node:
 ```
 docker-compose down
 docker-compose pull
