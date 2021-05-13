@@ -93,7 +93,7 @@ We can get more detailed information about our suri with the <a href="https://su
 ```
 curl https://getsubstrate.io -sSf | bash -s -- --fast
 source ~/.cargo/env
-cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.0
+cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked
 ```
 
 ### Keys
