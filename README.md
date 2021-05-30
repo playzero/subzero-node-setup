@@ -37,7 +37,7 @@ Windows
 - [Linux](https://git-scm.com/download/linux) || [Mac](https://git-scm.com/download/mac) || [Windows](https://git-scm.com/download/win)
 
 ##### Now we clone the repository:
-```git clone https://gitlab.com/zero.io/subzero_alphaville```
+```git clone https://gitlab.com/zero.io/subzero-node-setup```
 
 ---
 
