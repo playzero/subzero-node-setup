@@ -1,11 +1,17 @@
-# Subzero-Alphaville Validator Node
-#### 6 Steps ~ 60 Minutes.
+![logo zero.io](images/zero.jpg)
+# zero.io
+## Subzero-Alphaville Validator Node
 
+> #### Running a validator is for hardcore supporters and nor for everyone. Are you up for the Challenge?
+> #### !! This is not to be taken lightly, keeping it updated and a good uptime is important !!
+#### Time: 6 Steps ~ 60 Minutes.
+
+<br/>
 <br/>
 
 ---
-
 ## 0 - What is needed to create a node with this repository:
+---
 
 <br/>
 
@@ -48,11 +54,13 @@ There are several ways to get a subdomain. I will show you 2 ways
 1.  Create an account
 2.  Create DNS HOST (A) Record -> Here is a nice tutorial: https://www.noip.com/support/knowledgebase/configure-ip-hostname/
 </details>
+
+<br/>
 <br/>
 
 ---
-
 ## 1 - Create the keys Babe and Gran for the node
+---
 
 Preparation:
 - (generate an address and save the seed phrase for example with: https://polkadot.js.org/extension/)
@@ -66,6 +74,7 @@ Preparation:
 
 ## The Short Way
 #### use our discord bot faucet-chan (and get some PLAY tokens while your at it)
+---
 
 ### ZERO-FAUCET Discord:
 https://discord.gg/d94Hrz4udy
@@ -82,7 +91,6 @@ Also, be sure to Get tokens to play and test
 <br/>
 
 ## The Long Way
-
 <details><summary>Compile Subkey Yourself</summary>
 How do we get the SR25519 and ED25519 public key from our suri:
 
@@ -123,9 +131,12 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
 ```
 </details>
 
----
+<br/>
+<br/>
 
+---
 ## 2 - Now that we have our public keys we need to create 2 files in the folder ./keys
+---
 
 > As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
 
@@ -140,9 +151,10 @@ The end result will look like this but with YOUR key information
 
 ---
 
-#### The first file is for babe:
-
 <br/>
+
+### The first file is for babe:
+
 
 Create a file with the name `62616265` concatenated with your public key in sr25519 format you acquired in the previous step (babe)
 
@@ -154,9 +166,10 @@ Now all that remains is to write our suri in the file.
 
 ---
 
-#### The second file is for gran:
-
 <br/>
+
+### The second file is for gran:
+
 
 Create a file with the name `6772616e` concatenated with your public key in ed25519 format you acquired in the previous step (gran)
 
@@ -175,13 +188,13 @@ The folder `./keys` should now contain 2 files
 ├── 626162653ee10e31a28caefe0fb45c33aa5f79d83758a2006abcd6bf387b21025f7ad720
 <br/>
 └── 6772616e216c3621cfe4f2a0877d6090a8c9aa8e5efc28fe830dfcbe02e289912cb9e228
+
+<br/>
 <br/>
 
 ---
-
-<br/>
-
 ## 3 - The node needs a name:
+---
 
 There is a file named `.env` in the repository the content is quite manageable
 This is the name that will show up in the telemetry
@@ -189,8 +202,12 @@ This is the name that will show up in the telemetry
 ```
 NAME=ExampleNode
 ```
+<br/>
+<br/>
 
+---
 ## 4 - Configuration of our subdomain:
+---
 
 The file location is `.\config\node.subdomain.conf`.
 
@@ -209,7 +226,12 @@ Example:
 >
 > So we change `node.*` to `magic-node.*` actually quite simple.
 
+<br/>
+<br/>
+
+---
 ## 5 - Letsencrypt configs
+---
 
 The file location is `.\config\letsencrypt-env`.
 
@@ -228,7 +250,12 @@ SUBDOMAINS=myNode
 
 -> Who wants to read more about the settings can click <a href="https://github.com/linuxserver/docker-letsencrypt#parameters">here</a>
 
+<br/>
+<br/>
+
+---
 ## 6 - Start the Node:
+---
 
 We can now easily start the node with `docker-compose up`.
 
@@ -239,3 +266,7 @@ We can now easily start the node with `docker-compose up`.
 > We can always open the logs with `docker-compose logs -f`
 >
 > `docker-compose down` to stop the container
+
+
+---
+## DONE 🎉🎉🎉
