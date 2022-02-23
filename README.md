@@ -15,6 +15,7 @@ You are hardcore? You are in it for the liong haul? Consider becoming a Validato
 
 ---
 ## 0 - Setup 
+### Requirements: Make sure your server has at least a 500gb ssd and 2 cores.
 ---
 
 ### DigitalOcean:
