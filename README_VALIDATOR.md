@@ -72,37 +72,14 @@ Preparation:
 
 <br/>
 
-## The Short Way
-#### use our discord bot faucet-chan (and get some PLAY tokens while your at it)
+## Using Subkey to get the keys
 ---
 
-### ZERO-FAUCET Discord:
-https://discord.gg/d94Hrz4udy
-
-To get the SR25519 and ED25519 infromation for Address
-```!fc subkey <Address>```
-
-Example
-```!fc subkey 5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY```
-
-Also, be sure to Get tokens to play and test
-```!fc get <Address>```
+Subkey is included in our docker container:
+```docker run -it playzero/subzero:latest /usr/local/bin/subkey```
 
 <br/>
 
-## The Long Way
-<details><summary>Compile Subkey Yourself</summary>
-How do we get the SR25519 and ED25519 public key from our suri:
-
-> As an example I use `detect silk hidden item media foster brief maple proof belt absurd genius` as suri
-
-We can get more detailed information about our suri with the <a href="https://substrate.dev/docs/en/knowledgebase/integrate/subkey">subkey tool:</a>
-
-```
-curl https://getsubstrate.io -sSf | bash -s -- --fast
-source ~/.cargo/env
-cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked
-```
 
 ### Keys
 
@@ -133,6 +110,11 @@ Secret phrase `detect silk hidden item media foster brief maple proof belt absur
 
 <br/>
 <br/>
+
+### Extra: get ZERO-FAUCET Tokens on Discord:
+https://discord.gg/d94Hrz4udy
+ Get tokens from our faucet to play and test:
+```!fc get <Address>```
 
 ---
 ## 2 - Now that we have our public keys we need to create 2 files in the folder ./keys
